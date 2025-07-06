@@ -112,31 +112,6 @@ public class VisionController {
 }
 ```
 
-### 📊 PredictionResult.java
-```java
-public class PredictionResult {
-    private String id;
-    private String project;
-    private String iteration;
-    private String created;
-    private List<Prediction> predictions;
-    
-    // Getters y setters...
-}
-```
-
-
-### 📌 Prediction.java
-```java
-public class Prediction {
-    private String tagId;
-    private String tagName;
-    private double probability;
-    
-    // Getters y setters...
-}
-```
-
 
 ## 🎨 Paso 3: Frontend Personalizado
 
